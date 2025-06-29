@@ -1,8 +1,8 @@
 ![](https://raw.githubusercontent.com/aladinyo/ChatPlus/main/UI%20%26%20UX/ChatPlus_Banner.png)
 
-## ChatPlus a Great PWA for Chatting 💬✨🤩
+## TalkSpace is a Great PWA for Chatting 💬✨🤩
 
-ChatPlus is a progressive web app developped with React, NodeJS, Firebase and other services.
+TalkSpace is a progressive web app developped with React, NodeJS, Firebase and other services.
 
 You can Talk with all your friends in real time 🗣️✨🧑‍🤝‍🧑❤️
 
@@ -29,15 +29,6 @@ After using the app, you can delete your account if you want by clicking on the 
 ![](https://holocron.so/uploads/64357369-chatplus-mobile.png)
 
 ![](https://holocron.so/uploads/163a9485-chatplus-desktop.png)
-
-## Hire me for a Professional FullStack Development
-
-If you're intrested in working with me, I would be glad to do that you can contact me here :
-
-- UpWork: <https://www.upwork.com/freelancers/~01e15a92091f0f0bc7?mp_source=share>
-- Email: [bounekeur@gmail.com](bounekeur@gmail.com)
-- WhatsApp & Telegram: +90 534 414 48 71
-- ChatPlus: search for my name "Alaa Eddine Boubekeur" in the app and chat with me 😉😉
 
 ## Installation Instructions
 
