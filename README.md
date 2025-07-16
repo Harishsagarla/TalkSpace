@@ -1,8 +1,129 @@
+# ChatPlus - Real-time Chat Application With Firebase Integration
+
+A modern real-time chat application built with React, Firebase, and Node.js.
+
+## 🚀 Quick Start
+
+### Option 1: Automatic Start (Recommended)
+1. Double-click `start-app.bat` to automatically start both backend and frontend servers
+2. Wait for both servers to start
+3. Open your browser and go to: **http://localhost:3000**
+
+### Option 2: Manual Start
+
+#### Start Backend Server
+```bash
+cd backend
+node index.js
+```
+Backend will run on: **http://localhost:5000**
+
+#### Start Frontend Server
+```bash
+npm start
+```
+Frontend will run on: **http://localhost:3000**
+
+## 📁 Project Structure
+
+```
+ChatPlus-main/
+├── backend/                 # Node.js backend server
+│   ├── index.js            # Main server file
+│   ├── firebase-modules.js # Firebase configuration
+│   ├── configKeys.js       # Backend configuration
+│   └── package.json        # Backend dependencies
+├── src/                    # React frontend
+│   ├── App.js             # Main React component
+│   ├── configKeys.js      # Frontend configuration
+│   ├── firebase.js        # Firebase setup
+│   └── ...                # Other React components
+├── start-app.bat          # Automatic startup script
+└── package.json           # Frontend dependencies
+```
+
+## ⚙️ Configuration
+
+### Backend Configuration
+The backend uses mock Firebase services for development. To use real Firebase:
+
+1. Update `backend/configKeys.js` with your Firebase project details
+2. Add your `serviceAccountKey.json` to the backend folder
+3. Add your `audio_transcript.json` for Google Cloud Speech API
+
+### Frontend Configuration
+The frontend uses placeholder Firebase config. To use real Firebase:
+
+1. Update `src/configKeys.js` with your Firebase project details
+2. Update Algolia search configuration if needed
+
+## 🔧 Features
+
+- ✅ Real-time messaging
+- ✅ Video and audio calls
+- ✅ User authentication
+- ✅ File sharing
+- ✅ Search functionality
+- ✅ Responsive design
+- ✅ PWA support
+
+## 🌐 Access Points
+
+- **Frontend**: http://localhost:3000
+- **Backend Health Check**: http://localhost:5000/health
+- **Backend API**: http://localhost:5000
+
+## 🛠️ Development
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+```bash
+# Install frontend dependencies
+npm install
+
+# Install backend dependencies
+cd backend
+npm install
+```
+
+### Running in Development
+```bash
+# Start backend (in one terminal)
+cd backend && node index.js
+
+# Start frontend (in another terminal)
+npm start
+```
+
+## 📝 Notes
+
+- The application currently runs with mock Firebase services
+- All Firebase operations are logged to the console
+- Real Firebase integration requires proper credentials
+- The backend server handles all real-time operations
+- The frontend provides the user interface
+
+## 🐛 Troubleshooting
+
+If you encounter issues:
+
+1. **Port already in use**: Kill processes on ports 3000 and 5000
+2. **Module not found**: Run `npm install` in both root and backend directories
+3. **Firebase errors**: Check that configKeys.js files are properly configured
+4. **Compilation errors**: Ensure all dependencies are installed
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
 ![](https://raw.githubusercontent.com/aladinyo/ChatPlus/main/UI%20%26%20UX/ChatPlus_Banner.png)
 
-## TalkSpace is a Great PWA for Chatting 💬✨🤩
+## ChatPlus a Great PWA for Chatting 💬✨🤩
 
-TalkSpace is a progressive web app developped with React, NodeJS, Firebase and other services.
+ChatPlus is a progressive web app developped with React, NodeJS, Firebase and other services.
 
 You can Talk with all your friends in real time 🗣️✨🧑‍🤝‍🧑❤️
 
@@ -29,6 +150,7 @@ After using the app, you can delete your account if you want by clicking on the 
 ![](https://holocron.so/uploads/64357369-chatplus-mobile.png)
 
 ![](https://holocron.so/uploads/163a9485-chatplus-desktop.png)
+
 
 ## Installation Instructions
 
@@ -164,3 +286,8 @@ Take a look at them to get a good understanding of the app.
 - A sound is played when you send a message or receive one in a conversation.
 - Another sound is played if you receive a message from another user..
 - you can click on the arrow down button at the home page and the web app is installed in your device.
+
+👨‍💻 Developer
+Developed by Harish Sagarla
+
+Feel free to contribute, fork, or open issues to improve the project!
